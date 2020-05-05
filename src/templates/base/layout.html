@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/pichon.jpeg')}}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/base/layout.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/base/menu.css')}}">
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <nav>
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='img/logo.png')}}">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#link-hero">Inicio</a></li>
+                    <li><a href="#link-about">Acerca de</a></li>
+                    <li><a href="#link-work">Trabajo</a></li>
+                    <li><a href="#link-code">Proyectos</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <script type="text/javascript" src="{{ url_for('static', filename='js/menu-response.js' )}}"></script>
+        </header>
+        {% block content %}
+        {% endblock%}
+        <footer class="footer">
+            <h4>&copy; Derechos Reservados por Qupi</h4>
+        </footer>
+    </section>
+    
+</body>
+</html>

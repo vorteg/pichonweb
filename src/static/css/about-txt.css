@@ -1,0 +1,47 @@
+.about-txt{
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    overflow: hidden; 
+    height: 500;
+    background: #ed8e00;
+    background-size: cover;
+}
+
+
+
+.container-about-txt {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #2b93b3;
+    text-transform: uppercase;
+}
+
+.container-about-txt h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+
+
+.des-about-txt{
+    margin: 20px;
+    display: block;
+    font-size: 72px;
+    color:#2b93b3;
+    
+}
+
+.btn-about-txt{
+    color: #313131;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+
