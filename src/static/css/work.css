@@ -8,7 +8,6 @@
 
 .container-work {
     padding: 20%;
-    grid-gap: 20px;
     display: grid;
     grid-template-columns: repeat(5/ 1fr);
     grid-template-rows: repeat(2/auto);
@@ -35,7 +34,9 @@
 
 .img-str{
     grid-area: img-str;
-    background: #af9276;
+    height: 200px;
+    background: url(/static/img/planning.jpg) no-repeat center;
+    background-size: cover;
 }
 
 
@@ -45,7 +46,9 @@
 }
 .img-br{
     grid-area: img-br;
-    background: #af9276;
+    height: 200px;
+    background: url(/static/img/brand.png) no-repeat center;
+    background-size: cover;
 }
 
 
@@ -56,6 +59,9 @@
 
 
 @media screen and (max-width:768px){
+    .work{    
+        height: 2000px;        
+    }
     .container-work {
         grid-template-columns: 100%;
         grid-template-rows: repeat(6 / auto);

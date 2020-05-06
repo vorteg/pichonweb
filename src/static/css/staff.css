@@ -1,6 +1,6 @@
 .staff{    
     position: relative;
-    height: 1000px;
+    height: 800px;
     overflow: hidden; 
     background: blueviolet;
     background-size: cover;
@@ -72,7 +72,7 @@
 
 @media screen and (max-width:768px){
     .staff{    
-        height: 2000px;
+        height: 1700px;
                 
     }
     
