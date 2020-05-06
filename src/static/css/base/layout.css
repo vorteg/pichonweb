@@ -22,6 +22,7 @@ body,html {
                         "about about about-txt about-txt" 
                         "work work work work"                                           
                         "code office admin advice"
+                        "staff staff staff staff"
                         "footer footer footer footer";
 }
 
@@ -62,6 +63,10 @@ body,html {
 .advice{
     grid-area: advice;
 }
+
+.staff{
+    grid-area: staff;
+}
 .footer {
     grid-area: footer;
     background: linear-gradient(to left, #1f3649, #0b151d); 
@@ -83,6 +88,7 @@ body,html {
                             "office " 
                             "admin "
                             "advice "
+                            "staff"
                             "footer ";
     }
 

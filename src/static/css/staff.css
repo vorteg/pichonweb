@@ -1,0 +1,46 @@
+.staff{    
+    position: relative;
+    height: 500px;
+    overflow: hidden; 
+    background: blueviolet;
+    background-size: cover;
+}
+
+.container-staff {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #ed8e00;
+    text-transform: uppercase;
+}
+
+.container-staff h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+
+
+.des-staff{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    
+}
+
+.btn-staff{
+    color: #313131;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: white;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+
+.btn-staff:hover{
+    opacity: 0.3;
+}
