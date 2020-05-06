@@ -7,6 +7,13 @@
 }
 
 .container-work {
+    padding: 20%;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(5/ 1fr);
+    grid-template-rows: repeat(2/auto);
+    grid-template-areas: "h1 h1 h1 h1 h1"
+                        "strategic img-str brand img-br projects";
     position: relative; 
     top: 50%;
     left: 50%;
@@ -17,30 +24,47 @@
 }
 
 .container-work h1{
+    grid-area: h1;
     font-size: 72px;
-    letter-spacing: 0.2em;
-    margin: 0;
+}
+
+.strategic{
+    grid-area: strategic;
+    background:#2b93b3;
+}
+
+.img-str{
+    grid-area: img-str;
+    background: #af9276;
 }
 
 
-
-.des-work{
-    margin: 20px;
-    display: block;
-    font-size: 26px;
-    
+.brand{
+    grid-area: brand;
+    background:#2b93b3;
+}
+.img-br{
+    grid-area: img-br;
+    background: #af9276;
 }
 
-.btn-work{
-    color: #313131;
-    padding: 10px 24px;
-    font-size: 20px;
-    text-decoration: none;
-    background: white;
-    border-radius: 8px;
-    transition: 0.3s all;
+
+.projects{
+    grid-area: projects;
+    background:#2b93b3;
 }
 
-.btn-work:hover{
-    opacity: 0.3;
+
+@media screen and (max-width:768px){
+    .container-work {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6 / auto);
+        grid-template-areas: "h1"
+                             "strategic" 
+                             "img-str"
+                             "brand"
+                             "img-br"
+                             "projects";
+        
+    }
 }
