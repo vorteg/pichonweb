@@ -26,13 +26,13 @@ In order to contribute to a project on GitHub, you must first get a copy of the 
 
 There are five steps to building this project:
 
-1. [Set up Git and Install flask & python 3.6+](#set-up-git-and-install-nodejs)
+1. [Set up Git and Install flask & python 3.6+](#Set-up-Git-and-Install-Flask)
 1. [Fork the repository](#fork-the-repository)
 1. [Clone your fork](#clone-your-fork)
 1. [Install dependencies](#install-dependencies)
 1. [Run the project](#run-the-project)
 
-Once you get the project built, see if you can fix some [issues](https://github.com/danthareja/contribute-to-open-source/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+Once you get the project built, see if you can fix some [issues](https://github.com/vorteg/pichonweb/issues).
 
 ### Set up Git and Install Flask
 
@@ -40,7 +40,7 @@ Once you get the project built, see if you can fix some [issues](https://github.
 
 All GitHub projects are backed by a version control software called *Git*. You'll need to [set up Git](https://github.com/danthareja/contribute-to-open-source/wiki/Setting-up-Git) in order to contribute to *any* project on GitHub.
 
-This specific project is written in JavaScript and uses Node.js as it's runtime. You'll need to [install Node.js](https://nodejs.org/en/) in order to run the project.
+This specific project is written in Python 3.6.9 and uses Flask as it's framwork web. You'll need to [install Python](https://www.python.org/downloads/) in order to run the project.
 
 ### Fork the repository
 
@@ -106,7 +106,7 @@ $ source env/bin/activate
 .\env\Scripts\activate
 ```
 
-Run the app
+#### Run the app
 ```
 $ flask run
 ```
@@ -158,7 +158,7 @@ $ git push origin master
 
 ### Open a Pull Request
 
-1. Find the [New Pull Request](https://github.com/danthareja/pichonweb/compare/) button
+1. Find the [New Pull Request](https://github.com/vorteg/pichonweb/compare/) button
 2. Select the option to **compare across forks**
 3. Select **your username** in the `head fork` option
 4. Select **your username** in the `base` option<sup>*</sup>
