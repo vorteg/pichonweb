@@ -38,47 +38,66 @@
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+Once you get the project built, see if you can fix some [issues](https://github.com/vorteg/pichonweb/issues).
 
-### Clone
+### Set up Git and Install Flask
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+> **If you've never written Python,HTML,CSS or JS before, don't sweat!** This project only requires fundamental language skills, you should be able to adapt from your favorite language.
 
-### Setup
+All GitHub projects are backed by a version control software called *Git*. You'll need to [set up Git](https://github.com/vorteg/pichonweb/wiki/Setting-up-Git) in order to contribute to *any* project on GitHub.
 
-- If you want more syntax highlighting, format your code like this:
+This specific project is written in Python 3.6.9 and uses Flask as it's framwork web. You'll need to [install Python](https://www.python.org/downloads/) in order to run the project.
 
-> update and install this package first
+### Install dependencies
 
-```shell
-$ brew update
-$ brew install fvcproductions
+This project uses Pip to maintain third-party dependencies.
+
+First, navigate into the project's directory
+
+```
+$ cd pichonweb
 ```
 
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
+Next, use `pip` to install the project's dependencies
+```
+$ pip install -r requirements.txt
 ```
 
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+### Install venv
+virtualenv is used to manage Python packages for different projects. 
+Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects.
+You can install virtualenv using pip.more detail in [set up venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) 
 
----
+### Run the project
 
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
+You can run from virtual enviroment attached in pichonweb repo.For this following :
 
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+```
+$ cd pichonweb
+```
 
+Execute virtual enviroment
+
+#### macOS and Linux
+
+```
+$ source env/bin/activate
+
+```
+#### Windows
+
+```
+.\env\Scripts\activate
+```
+
+#### Run the app
+```
+$ flask run
+```
 ---
 
 ## Contributing
-
+> Read [CONTRIBUTING file](https://github.com/vorteg/pichonweb/blob/master/CONTRIBUTING.md) for more detail
 > To get started...
 
 ### Step 1
@@ -87,7 +106,7 @@ $ bower install
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/vorteg/pichonweb`
 
 ### Step 2
 
@@ -95,37 +114,6 @@ $ bower install
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
-
----
-
-## Team
-
-> Or Contributors/People
-
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
-
----
-
-## Support
-
-Reach out to me at one of the following places!
-
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
+- 🔃 Create a new pull request using <a href="https://github.com/vorteg/pichonweb/compare/" target="_blank">`https://github.com/vorteg/pichonweb/compare/`</a>.
 
 
