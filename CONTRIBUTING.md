@@ -38,7 +38,7 @@ Once you get the project built, see if you can fix some [issues](https://github.
 
 > **If you've never written Python,HTML,CSS or JS before, don't sweat!** This project only requires fundamental language skills, you should be able to adapt from your favorite language.
 
-All GitHub projects are backed by a version control software called *Git*. You'll need to [set up Git](https://github.com/danthareja/contribute-to-open-source/wiki/Setting-up-Git) in order to contribute to *any* project on GitHub.
+All GitHub projects are backed by a version control software called *Git*. You'll need to [set up Git](https://github.com/vorteg/pichonweb/wiki/Setting-up-Git) in order to contribute to *any* project on GitHub.
 
 This specific project is written in Python 3.6.9 and uses Flask as it's framwork web. You'll need to [install Python](https://www.python.org/downloads/) in order to run the project.
 
