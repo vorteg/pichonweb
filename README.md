@@ -5,10 +5,13 @@
 # Pichonweb
 > Pichonweb is a repository to build a web site prototype functional to Pichones Corp Bussines image and digital work platform.
 
-**Badges **
-## Table of Contents (Optional)
+---
 
-> If your `README` has a lot of info, section headers might be nice.
+** Badges **
+
+---
+
+## Contents 
 
 - [Installation](#installation)
 - [Features](#features)
@@ -17,22 +20,6 @@
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
-
-
----
-
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
 
 ---
 
