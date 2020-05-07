@@ -15,14 +15,10 @@
 - Copyright 2020 © <a href="https://pichonescorp.wixsite.com/pichonescorp target="_blank">Pichones Corp</a>.
 ---
 
-## Contents 
+## Content 
 
 - [Installation](#installation)
-- [Features](#features)
 - [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
 - [License](#license)
 
 ---
