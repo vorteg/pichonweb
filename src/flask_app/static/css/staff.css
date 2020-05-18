@@ -1,0 +1,92 @@
+.staff{    
+    position: relative;
+    height: 800px;
+    overflow: hidden; 
+    background: blueviolet;
+    background-size: cover;
+    
+}
+
+.container-staff {
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 / 1fr);
+    grid-template-rows: repeat(3/auto);
+    grid-template-areas: "h1 h1 h1"
+                            "play1 play2 play3"
+                            "play4 play5 play6";
+    position: relative; 
+    
+    text-align: center;
+    color: #ed8e00;
+    text-transform: uppercase;
+}
+
+.container-staff h1{
+    grid-area: h1;
+    font-size: 72px;
+}
+
+.play1{
+    grid-area: play1;
+    height: 200px;
+    background: url(/static/img/ir.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.play2{
+    grid-area: play2;
+    height: 200px;
+    background: url(/static/img/v.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.play3{
+    grid-area: play3;
+    height: 200px;
+    background: url(/static/img/cs.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.play4{
+    grid-area: play4;
+    height: 200px;
+    background: url(/static/img/a.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.play5{
+    grid-area: play5;
+    height: 200px;
+    background: url(/static/img/iv.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.play6{
+    grid-area: play6;
+    background: lightblue;
+}
+
+@media screen and (max-width:768px){
+    .staff{    
+        height: 1700px;
+                
+    }
+    
+    .container-staff {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(7/auto);
+        grid-template-areas: "h1"
+                             "play1" 
+                             "play2"
+                             "play3"
+                             "play4"
+                             "play5" 
+                             "play6";
+        
+    }
+
+}

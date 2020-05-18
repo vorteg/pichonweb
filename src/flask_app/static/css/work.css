@@ -1,0 +1,76 @@
+.work{    
+    position: relative;
+    height: 500px;
+    overflow: hidden; 
+    background: url(/static/img/giphy.gif) no-repeat center;
+    background-size: cover;
+}
+
+.container-work {
+    padding: 20%;
+    display: grid;
+    grid-template-columns: repeat(5/ 1fr);
+    grid-template-rows: repeat(2/auto);
+    grid-template-areas: "h1 h1 h1 h1 h1"
+                        "strategic img-str brand img-br projects";
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #ed8e00;
+    text-transform: uppercase;
+}
+
+.container-work h1{
+    grid-area: h1;
+    font-size: 72px;
+}
+
+.strategic{
+    grid-area: strategic;
+    background:#2b93b3;
+}
+
+.img-str{
+    grid-area: img-str;
+    height: 200px;
+    background: url(/static/img/planning.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.brand{
+    grid-area: brand;
+    background:#2b93b3;
+}
+.img-br{
+    grid-area: img-br;
+    height: 200px;
+    background: url(/static/img/brand.png) no-repeat center;
+    background-size: cover;
+}
+
+
+.projects{
+    grid-area: projects;
+    background:#2b93b3;
+}
+
+
+@media screen and (max-width:768px){
+    .work{    
+        height: 2000px;        
+    }
+    .container-work {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6 / auto);
+        grid-template-areas: "h1"
+                             "strategic" 
+                             "img-str"
+                             "brand"
+                             "img-br"
+                             "projects";
+        
+    }
+}

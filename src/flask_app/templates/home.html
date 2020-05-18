@@ -1,0 +1,113 @@
+{% extends 'base/layout.html'%}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='/css/home.css')}}">
+<section class="hero" id="link-hero" role="img" aria-label="Image Description">
+  <div class="container-hero">
+    <h1><span>PICHONES CORP COMUNITY</span></h1>
+    <span class="des">Web Developer // Web Designer</span>
+    <a class="btn-hero" href="">Unete a la comunidad</a>
+  </div>
+</section>
+<!-- About img -->
+<link rel="stylesheet" href="{{url_for('static', filename='/css/about.css')}}">
+<section class="about" role="img" aria-label="Image Description">
+  <div class="container-about" id="link-about">
+    <h1><span>About</span></h1>
+    <span class="des-about">Web Developer // Web Designer</span>
+  </div>
+</section>
+<!-- About txt -->
+<section class="about-txt" role="img" aria-label="Image Description">
+  <div class="container-about-txt">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/about-txt.css')}}">
+    <span class="des-about-txt">SOBRE NOSOTROS</span>
+    <p class="btn-about-txt">Somos un equipo que construye redes de trabajo,
+      aportando a proyectos que se enfocan en valorar el tiempo,
+      el conocimiento y las habilidades de los profesionistas
+      y especialistas en los diversos ambitos laborales.
+      <br /> Tambien nos enfocamos en usar tecnologias que marcan las
+      tendencias de seguridad, transparencia y sobre todo el trabajo productivo </p>
+  </div>
+</section>
+
+<!-- work section -->
+<section class="work" id="link-work" role="img" aria-label="Image Description">
+  <div class="container-work">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/work.css')}}">
+    <h1>COMO TRABAJAMOS</h1>
+    <div class="strategic">Estrategia</div>
+    <div class="img-str">image</div>
+    <div class="brand">Marca</div>
+    <div class="img-br">image</div>
+    <div class="projects">Proyectos</div>
+  </div>
+</section>
+
+<!-- CODE Section -->
+<section class="code" id="link-code" role="img" aria-label="Image Description">
+  <div class="container-code">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/code.css')}}">
+    <h1><span>Foco</span></h1>
+    <span class="des-code">CODE</span>
+    <a class="btn-code" href="">Aporta codigo</a>
+  </div>
+</section>
+
+<!-- Office Section -->
+<section class="office" role="img" aria-label="Image Description">
+  <div class="container-office">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/office.css')}}">
+    <h1><span>Tools</span></h1>
+    <span class="des-office">Oficio</span>
+    <a class="btn-office" href="">Comparte Habilidades</a>
+  </div>
+</section>
+
+<!-- Admin Section -->
+<section class="admin" role="img" aria-label="Image Description">
+  <div class="container-admin">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/admin.css')}}">
+    <h1><span>Lapiz</span></h1>
+    <span class="des-admin">Administrativo</span>
+    <a class="btn-admin" href="">Gestiona proyectos</a>
+  </div>
+</section>
+
+<!-- Advice Section -->
+<section class="advice" role="img" aria-label="Image Description">
+  <div class="container-advice">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/advice.css')}}">
+    <h1><span>Ideas</span></h1>
+    <span class="des-advice">Consultoria</span>
+    <a class="btn-advice" href="">Comparte coocimientos</a>
+  </div>
+</section>
+<!-- staff Section -->
+<section class="staff" role="img" aria-label="Image Description">
+  <div class="container-staff">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/staff.css')}}">
+    <h1>STAFF</h1>
+    <div class="play1">
+      <img src="" alt="Holi">
+    </div>
+    <div class="play2">
+      <img src="" alt="holi">
+    </div>
+    <div class="play3">
+      <img src="" alt="holi">
+    </div>
+    <div class="play4">
+      <img src="" alt="holi">
+    </div>
+    <div class="play5">
+      <img src="" alt="holi">
+    </div>
+    <div class="play6">
+      <img src="" alt="holi">
+    </div>
+  </div>
+</section>
+{% endblock %}

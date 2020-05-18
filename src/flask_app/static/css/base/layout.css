@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+ 
+body,html {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;    
+    font-family: 'Roboto', sans-serif;
+   
+    
+
+}
+
+.container {
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(9, auto);
+    grid-template-areas: "header header header header" 
+                        "hero hero hero hero"
+                        "about about about-txt about-txt" 
+                        "work work work work"                                           
+                        "code office admin advice"
+                        "staff staff staff staff"
+                        "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    z-index:1;
+    
+    
+    
+}
+
+.hero{
+    grid-area: hero;
+}
+
+.about{
+    grid-area: about;
+}
+
+.about-txt{
+    grid-area: about-txt;
+}
+
+.work{
+    grid-area: work;
+}
+.code{
+    grid-area: code;
+}
+
+.office{
+    grid-area: office;
+}
+
+.admin{
+    grid-area: admin;
+}
+.advice{
+    grid-area: advice;
+}
+
+.staff{
+    grid-area: staff;
+}
+.footer {
+    grid-area: footer;
+    background: linear-gradient(to left, #1f3649, #0b151d); 
+
+}
+
+@media screen and (max-width:768px){
+    .container {
+   
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: "header " 
+                            "hero "
+                            "about " 
+                            "about-txt"
+                            "work"                                           
+                            "code " 
+                            "office " 
+                            "admin "
+                            "advice "
+                            "staff"
+                            "footer ";
+    }
+
+    .header{
+        position: fixed;
+    }
+}

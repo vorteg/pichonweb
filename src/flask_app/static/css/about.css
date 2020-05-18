@@ -1,0 +1,36 @@
+.about{    
+    position: relative;
+    height: 500px;
+    overflow: hidden; 
+    background: url(/static/img/creativity.jpg)  no-repeat center;
+    background-size: cover;
+}
+
+.container-about {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-about h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.container-about h1 span{
+    border: 10px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des-about{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    
+}

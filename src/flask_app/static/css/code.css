@@ -1,0 +1,53 @@
+.code{
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    overflow: hidden; 
+    height: 250;
+    background: #8293a1;
+    background-size: cover;
+}
+
+.container-code {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-code h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.container-code h1 span{
+    border: 10px solid white;
+    /* background: url(/static/img/cactus-maseta.jpg) no-repeat center; */
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des-code{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    
+}
+
+.btn-code{
+    color: #313131;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: white;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+
+.btn-code:hover{
+    opacity: 0.3;
+}
