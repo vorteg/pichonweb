@@ -1,3 +1,4 @@
 FROM python:3.6.9
 
-RUN pip install --no-cache-dir -r src/flask_app/requirements.txt
+COPY src/flask_app/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
