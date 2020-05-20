@@ -1,5 +1,5 @@
-FROM pichon
-                    
+FROM python:3.6.9
+         
 USER gitpod
 
 # Install custom tools, runtime, etc. using apt-get
